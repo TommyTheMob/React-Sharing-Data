@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: center;
+
+  .content {
+    width: 400px;
+
+    display: flex;
+    justify-content: space-around;
+  }
+}

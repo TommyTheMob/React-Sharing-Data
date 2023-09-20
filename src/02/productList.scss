@@ -1,0 +1,22 @@
+.products {
+  width: 150px;
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 5px;
+  }
+
+  &__total {
+    border-top: 1px solid #ccc;
+
+    text-align: end;
+
+    font-weight: bold;
+  }
+}
